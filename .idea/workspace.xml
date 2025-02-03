@@ -1,0 +1,335 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="NONE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="1111f47b-e8ee-4281-a045-a434108c08c6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/appInsightsSettings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/.github/ci-gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/.github/workflows/blueprints.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/.github/workflows/copy-branch.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/.google/packaging.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/CONTRIBUTING.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/proguard-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/proguardTest-rules.pro" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TaskDaoTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/tasks/AppNavigationTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksScreenTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/androidTest/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/debug/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/debug/java/com/example/android/architecture/blueprints/todoapp/HiltTestActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/TodoActivity.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/TodoApplication.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/TodoNavGraph.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/TodoNavigation.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/DefaultTaskRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/ModelMappingExt.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/Task.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/TaskRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/LocalTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/TaskDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/ToDoDatabase.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/network/NetworkDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/network/NetworkTask.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/network/TaskNetworkDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/di/CoroutinesModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/di/DataModules.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksFilterType.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksScreen.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksViewModel.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/Async.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/ComposeUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/CoroutinesUtils.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/SimpleCountingIdlingResource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/TodoDrawer.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/java/com/example/android/architecture/blueprints/todoapp/util/TopAppBars.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/drawer_item_color.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_add.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_assignment_turned_in_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_check_circle_96dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_done.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_edit.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_filter_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_menu.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_statistics.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_statistics_100dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_statistics_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/ic_verified_user_96dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/list_completed_touch_feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/logo_no_fill.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/touch_feedback.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/drawable/trash_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/font/opensans_font.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/font/opensans_regular.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/font/opensans_semibold.ttf" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/mipmap-hdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/mipmap-mdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/mipmap-xhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/mipmap-xxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/mipmap-xxxhdpi/ic_launcher.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values-v21/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values-w820dp/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values/attrs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values/colors.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values/dimens.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values/strings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/main/res/values/styles.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/addedittask/AddEditTaskViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/data/DefaultTaskRepositoryTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsUtilsTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/statistics/StatisticsViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/taskdetail/TaskDetailViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/java/com/example/android/architecture/blueprints/todoapp/tasks/TasksViewModelTest.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/app/src/test/resources/mockito-extensions/org.mockito.plugins.MockMaker" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradle.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradle/init.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradle/libs.versions.toml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradle/wrapper/gradle-wrapper.jar" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradle/wrapper/gradle-wrapper.properties" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradlew" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/gradlew.bat" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/renovate.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/screenshots/screenshots.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/screenshots/todoapp.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/settings.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/build.gradle.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/AndroidManifest.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/CustomTestRunner.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/MainCoroutineRule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/data/FakeTaskRepository.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/local/FakeTaskDao.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/data/source/network/FakeNetworkDataSource.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/di/DatabaseTestModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/shared-test/src/main/java/com/example/android/architecture/blueprints/todoapp/di/RepositoryTestModule.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/spotless/copyright.kt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/spotless/copyright.kts" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/architecture-samples-main/spotless/copyright.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="ClangdSettings">
+    <option name="formatViaClangd" value="false" />
+  </component>
+  <component name="ExecutionTargetManager" SELECTED_TARGET="device_and_snapshot_combo_box_target[DeviceId(pluginId=LocalEmulator, isTemplate=false, identifier=path=C:\Users\rohan\.android\avd\Rohan_API_31.avd)]" />
+  <component name="ExternalProjectsData">
+    <projectState path="$PROJECT_DIR$/architecture-samples-main">
+      <ProjectState />
+    </projectState>
+  </component>
+  <component name="ExternalProjectsManager">
+    <system id="GRADLE">
+      <state>
+        <projects_view>
+          <tree_state>
+            <expand />
+            <select />
+          </tree_state>
+        </projects_view>
+      </state>
+    </system>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 2
+}</component>
+  <component name="ProjectId" id="2nyIUEQPiaFVvba8019o8T5QkS8" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "ASKED_SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "AnalyzeApkAction.lastApkPath": "C:/Users/rohan/AndroidStudioProjects/architecture-samples-main/architecture-samples-main",
+    "Android App.app.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "RunOnceActivity.cidr.known.project.marker": "true",
+    "RunOnceActivity.readMode.enableVisualFormatting": "true",
+    "android.gradle.sync.needed": "true",
+    "cf.first.check.clang-format": "false",
+    "cidr.known.project.marker": "true",
+    "dart.analysis.tool.window.visible": "false",
+    "deletionFromPopupRequiresConfirmation": "false",
+    "git-widget-placeholder": "Rohan",
+    "ignore.virus.scanning.warn.message": "true",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/rohan/AndroidStudioProjects/architecture-samples-main/architecture-samples-main",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.17",
+    "project.structure.side.proportion": "0.2",
+    "settings.editor.selected.configurable": "configurable.group.appearance",
+    "show.migrate.to.gradle.popup": "false"
+  }
+}]]></component>
+  <component name="RunManager">
+    <configuration default="true" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="true" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="true" />
+      <option name="CLEAR_APP_STORAGE" value="true" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="SHOW_DIALOG" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="app" type="AndroidRunConfigurationType" factoryName="Android App" activateToolWindowBeforeRun="false">
+      <module name="architecture-samples-main.app.main" />
+      <option name="DEPLOY" value="true" />
+      <option name="DEPLOY_APK_FROM_BUNDLE" value="false" />
+      <option name="DEPLOY_AS_INSTANT" value="false" />
+      <option name="ARTIFACT_NAME" value="" />
+      <option name="PM_INSTALL_OPTIONS" value="" />
+      <option name="ALL_USERS" value="true" />
+      <option name="ALWAYS_INSTALL_WITH_PM" value="true" />
+      <option name="CLEAR_APP_STORAGE" value="true" />
+      <option name="DYNAMIC_FEATURES_DISABLED_LIST" value="" />
+      <option name="ACTIVITY_EXTRA_FLAGS" value="" />
+      <option name="MODE" value="default_activity" />
+      <option name="RESTORE_ENABLED" value="false" />
+      <option name="RESTORE_FILE" value="" />
+      <option name="CLEAR_LOGCAT" value="false" />
+      <option name="SHOW_LOGCAT_AUTOMATICALLY" value="false" />
+      <option name="TARGET_SELECTION_MODE" value="DEVICE_AND_SNAPSHOT_COMBO_BOX" />
+      <option name="SELECTED_CLOUD_MATRIX_CONFIGURATION_ID" value="-1" />
+      <option name="SELECTED_CLOUD_MATRIX_PROJECT_ID" value="" />
+      <option name="DEBUGGER_TYPE" value="Auto" />
+      <Auto>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Auto>
+      <Hybrid>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Hybrid>
+      <Java>
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Java>
+      <Native>
+        <option name="USE_JAVA_AWARE_DEBUGGER" value="false" />
+        <option name="SHOW_STATIC_VARS" value="true" />
+        <option name="WORKING_DIR" value="" />
+        <option name="TARGET_LOGGING_CHANNELS" value="lldb process:gdb-remote packets" />
+        <option name="SHOW_OPTIMIZED_WARNING" value="true" />
+        <option name="ATTACH_ON_WAIT_FOR_DEBUGGER" value="false" />
+        <option name="DEBUG_SANDBOX_SDK" value="false" />
+      </Native>
+      <Profilers>
+        <option name="ADVANCED_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_ENABLED" value="false" />
+        <option name="STARTUP_CPU_PROFILING_CONFIGURATION_NAME" value="Java/Kotlin Method Sample (legacy)" />
+        <option name="STARTUP_NATIVE_MEMORY_PROFILING_ENABLED" value="false" />
+        <option name="NATIVE_MEMORY_SAMPLE_RATE_BYTES" value="2048" />
+      </Profilers>
+      <option name="DEEP_LINK" value="" />
+      <option name="ACTIVITY_CLASS" value="" />
+      <option name="SEARCH_ACTIVITY_IN_GLOBAL_SCOPE" value="false" />
+      <option name="SKIP_ACTIVITY_VALIDATION" value="false" />
+      <method v="2" />
+    </configuration>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="1111f47b-e8ee-4281-a045-a434108c08c6" name="Changes" comment="" />
+      <created>1729938902832</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1729938902832</updated>
+    </task>
+    <servers />
+  </component>
+</project>
