@@ -29,7 +29,7 @@ This project hosts each sample app in separate repository branches. For more inf
 
 ## Screenshots
 
-<img src="screenshots/screenshots.png" alt="Screenshot">
+<img src="architecture-samples-main/screenshots/screenshots.png" alt="Screenshot">
 
 ## Why a to-do app?
 
